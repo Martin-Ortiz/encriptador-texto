@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/spy.png">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+
+    <main>
+        <img class="logo" src="img/Logo.png" alt="">
+
+        <section class="caja-entrada">
+            
+            <textarea name=""  class="entrada-texto" id="entradaTexto" placeholder="ingrese texto aqui"></textarea>
+            
+            <section class="info-botones">
+                <p class="ayuda"><label class="circulo">&#33</label> Solo letras minúsculas y sin acentos.</p>
+                <input class="boton-encriptar" type="button" id="btnEncriptar" value="Encriptar">
+                <input class="boton-desencriptar" type="button" id="btnDesencriptar"  value="Desencriptar">
+            </section>
+            
+        </section>
+        
+        <section class="caja-salida">
+            <textarea name="" class="salida-texto" id="salidaTexto" ></textarea>
+            <img class="imagen-inicial" src="img/Muñeco.png" alt="Imagen de un hacker" id="imgInicial">
+            <p class="titulo-mensaje" id="tituloMensaje">Ningun mensaje fue encontrado</p>
+            <p class="subtitulo-mensaje" id="subtituloMensaje">Ingresa el texto que deseas encriptar o desencriptar</p>
+            <div class="area-copiar">
+                <input class="boton-copiar" type="button"  id="btnCopiar"  value="Copiar">
+            </div>
+            
+        </section>
+
+    </main>
+
+    <footer>
+        <p class="pie-pagina"> Todos los derechos resevados &#169;2022<br> Martin Ortiz Dionicio<br>Estado de México, México.</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
