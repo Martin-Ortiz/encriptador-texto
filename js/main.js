@@ -41,7 +41,7 @@ function encriptarTexto() {
         default:
           var minusculas = ((letras[i] >96 && letras[i]<123) || letras[i] ==164) 
 
-          if((letras[i].charCodeAt(0)>96 && letras[i].charCodeAt(0)<123) || letras[i]=="ñ"){
+          if((letras[i].charCodeAt(0)>96 && letras[i].charCodeAt(0)<123) || letras[i]=="ñ" || letras[i]==" "){
             cadenaFinal = cadenaFinal + letras[i];
           }else {
             alert("Lo sentimos, el texto no es valido, solo se permiten minusculas y sin acentos");
